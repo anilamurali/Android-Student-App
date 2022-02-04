@@ -1,0 +1,53 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+   <androidx.appcompat.widget.AppCompatButton
+        android:text="ADD COURSES"
+       android:id="@+id/addcourse"
+        android:layout_margin="5dp"
+        android:textColor="#D7E3E4"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="ADD FACULTY"
+        android:id="@+id/addfac"
+        android:layout_margin="5dp"
+        android:textColor="#D7E3E4"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="ADD EXAMS"
+        android:id="@+id/addexm"
+        android:layout_margin="5dp"
+        android:textColor="#D7E3E4"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewbtn"
+        android:text="View Website"
+        android:layout_margin="5dp"
+        android:textColor="#D7E3E4"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="LOGOUT"
+        android:textColor="#D7E3E4"
+        android:id="@+id/lout"
+        android:layout_margin="5dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
